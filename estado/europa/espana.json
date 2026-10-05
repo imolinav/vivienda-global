@@ -1,7 +1,9 @@
 {
-  "fallos": {},
+  "fallos": {
+    "boe": 1
+  },
   "boe": {
-    "ultimaFecha": "2026-10-05"
+    "ultimaFecha": "desde_boe = 2026-09-28"
   },
   "consolidadas": {
     "BOE-A-2023-12203": "02/10/2026",
