@@ -1,0 +1,3 @@
+# Keep LF in the repository so the automation scripts (Linux runners)
+# and local Windows checkouts read the same bytes.
+* text=auto eol=lf

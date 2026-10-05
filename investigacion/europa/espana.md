@@ -322,3 +322,9 @@ Candidatas a documentar:
   - Políticas propias de la Comunidad de Madrid (programas autonómicos).
   - Datos de Eurostat consultados directamente (ahora vía Banco de España).
   - Evaluaciones de la Ley 12/2023 fuera de Cataluña (no se han encontrado).
+
+## Historial de actualizaciones
+
+Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
+
+- 2026-10-05 · Alta de 61 datos automáticos (`datos` en el frontmatter), configurados en `espana.fuentes.yml`. Sus valores iniciales coinciden con los verificados a mano en la fase 2.

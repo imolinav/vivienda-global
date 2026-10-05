@@ -223,6 +223,382 @@ sources:
     title: "Infobae (agencias) — «Los allanamientos y usurpaciones de vivienda caen un 9,4 % en 2025», a partir del Portal Estadístico de Criminalidad (fuente secundaria)"
     url: https://www.infobae.com/espana/agencias/2026/04/29/los-allanamientos-y-usurpaciones-de-vivienda-caen-un-94-en-2025/
     date: "29 de abril de 2026"
+datos:
+  ipv-anual:
+    valor: 12.2
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-trimestral:
+    valor: 3.4
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-nueva:
+    valor: 7.4
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-usada:
+    valor: 12.9
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-nominal-max-2007:
+    valor: 31.7
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-real-max-2007:
+    valor: -10.6
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-madrid:
+    valor: 12.9
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-cataluna:
+    valor: 10.1
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-balears:
+    valor: 13.7
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-canarias:
+    valor: 11
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-valenciana:
+    valor: 13
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-andalucia:
+    valor: 11.9
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-pais-vasco:
+    valor: 10
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  ipv-anual-navarra:
+    valor: 9.5
+    periodo: 2.º trimestre de 2026
+    fuente: ine-ipv
+    unidad: "%"
+    decimales: 1
+    signo: true
+  valor-tasado:
+    valor: 2355
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-anual:
+    valor: 12.5
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: "%"
+    decimales: 1
+    signo: true
+  valor-tasado-madrid:
+    valor: 4090
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-cataluna:
+    valor: 2753
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-balears:
+    valor: 3981
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-canarias:
+    valor: 2279
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-valenciana:
+    valor: 1935
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-andalucia:
+    valor: 1982
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-pais-vasco:
+    valor: 3102
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-navarra:
+    valor: 1936
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-extremadura:
+    valor: 997
+    periodo: 2.º trimestre de 2026
+    fuente: mivau-valor-tasado
+    unidad: €/m²
+    decimales: 0
+  compraventas-12m:
+    valor: 699038
+    periodo: agosto de 2025 a julio de 2026
+    fuente: ine-etdp
+    decimales: 0
+  compraventas-12m-variacion:
+    valor: -1
+    periodo: agosto de 2025 a julio de 2026
+    fuente: ine-etdp
+    unidad: "%"
+    decimales: 1
+    signo: true
+  hipotecas-numero:
+    valor: 43372
+    periodo: julio de 2026
+    fuente: ine-hipotecas
+    decimales: 0
+  hipotecas-tipo:
+    valor: 3.01
+    periodo: julio de 2026
+    fuente: ine-hipotecas
+    unidad: "%"
+    decimales: 2
+  hipotecas-fijo:
+    valor: 62.3
+    periodo: julio de 2026
+    fuente: ine-hipotecas
+    unidad: "%"
+    decimales: 1
+  hipotecas-plazo:
+    valor: 26
+    periodo: julio de 2026
+    fuente: ine-hipotecas
+    unidad: años
+    decimales: 0
+  irav:
+    valor: 2.47
+    periodo: agosto de 2026
+    fuente: ine-irav
+    unidad: "%"
+    decimales: 2
+  ipc-anual:
+    valor: 4.9
+    periodo: septiembre de 2026
+    fuente: ine-ipc
+    unidad: "%"
+    decimales: 1
+  ipc-alquiler-anual:
+    valor: 2.5
+    periodo: agosto de 2026
+    fuente: ine-ipc
+    unidad: "%"
+    decimales: 1
+  ipva-anual:
+    valor: 3.5
+    periodo: "2024"
+    fuente: ine-ipva
+    unidad: "%"
+    decimales: 1
+  ipva-anual-nuevos:
+    valor: 8.8
+    periodo: "2024"
+    fuente: ine-ipva
+    unidad: "%"
+    decimales: 1
+  ipva-anual-existentes:
+    valor: 2.8
+    periodo: "2024"
+    fuente: ine-ipva
+    unidad: "%"
+    decimales: 1
+  salario-medio:
+    valor: 29540
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  salario-mediano:
+    valor: 24497
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  salario-mediano-canarias:
+    valor: 20632
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  salario-mediano-pais-vasco:
+    valor: 31912
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  salario-mediano-madrid:
+    valor: 28038
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  salario-mediano-cataluna:
+    valor: 27133
+    periodo: "2024"
+    fuente: ine-salarios
+    unidad: €
+    decimales: 0
+  hogares:
+    valor: 19874860
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+  hogares-variacion-anual:
+    valor: 238585
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+    signo: true
+  hogares-unipersonales:
+    valor: 5678769
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+  hogar-tamano-medio:
+    valor: 2.49
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 2
+  poblacion-variacion-anual:
+    valor: 431652
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+    signo: true
+  poblacion-nacida-extranjero-variacion:
+    valor: 526903
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+    signo: true
+  poblacion-nacida-espana-variacion:
+    valor: -95251
+    periodo: 1 de julio de 2026
+    fuente: ine-ecp
+    decimales: 0
+    signo: true
+  vut-total:
+    valor: 341001
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    decimales: 0
+  vut-total-hace-un-ano:
+    valor: 381837
+    periodo: mayo de 2025
+    fuente: ine-viviendas-turisticas
+    decimales: 0
+  vut-porcentaje:
+    valor: 1.28
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-provincia-malaga:
+    valor: 4.53
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-canarias:
+    valor: 4.44
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-balears:
+    valor: 3.27
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-malaga:
+    valor: 3.17
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-valencia:
+    valor: 1.3
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-barcelona:
+    valor: 1.02
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-madrid:
+    valor: 0.71
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
+  vut-porcentaje-palma:
+    valor: 0.29
+    periodo: mayo de 2026
+    fuente: ine-viviendas-turisticas
+    unidad: "%"
+    decimales: 2
 ---
 
 # España
@@ -233,7 +609,7 @@ El 5 de octubre de 2026 se convocaron elecciones generales para el 29 de noviemb
 
 ## Resumen
 
-El precio de la vivienda en propiedad crece en España a ritmos de dos dígitos. En el segundo trimestre de 2026, el Índice de Precios de Vivienda del INE subió un 12,2 % interanual<Cite id="ine-ipv" />. Según cálculos propios a partir de datos del INE, en términos nominales los precios superan en un 31,7 % el máximo de 2007, pero descontada la inflación siguen un 10,6 % por debajo<Cite id="ine-ipv" /><Cite id="ine-ipc" />. La subida no es homogénea: se concentra en Madrid, Barcelona, la costa mediterránea y las islas. En buena parte del interior los precios reales están estancados o han bajado desde 2014<Cite id="bde-ia-2025" />.
+El precio de la vivienda en propiedad acumula varios años de subidas en España. En el <Dato id="ipv-anual" periodo />, el Índice de Precios de Vivienda del INE registró una variación interanual del <Dato id="ipv-anual" /><Cite id="ine-ipv" />. Según cálculos propios a partir de datos del INE, frente al máximo de 2007 los precios varían un <Dato id="ipv-nominal-max-2007" /> en términos nominales y un <Dato id="ipv-real-max-2007" /> descontada la inflación<Cite id="ine-ipv" /><Cite id="ine-ipc" />. La subida no es homogénea: se concentra en Madrid, Barcelona, la costa mediterránea y las islas. En buena parte del interior los precios reales están estancados o han bajado desde 2014<Cite id="bde-ia-2025" />.
 
 El Banco de España sitúa en el origen del problema un desajuste persistente entre oferta y demanda. En 2025 se crearon unos 240.000 hogares nuevos y se terminaron unas 92.000 viviendas. Entre 2021 y 2025, el déficit acumulado ronda las 750.000 viviendas<Cite id="bde-ia-2025" />. A la demanda residencial se suman otros usos, como la vivienda turística y las compras de no residentes, concentrados en zonas concretas<Cite id="bde-ia-2025" />.
 
@@ -243,8 +619,8 @@ En la política, la competencia sobre vivienda corresponde sobre todo a las comu
 
 ### Cifras clave
 
-- **Precio de compra:** +12,2 % interanual en el segundo trimestre de 2026 (INE)<Cite id="ine-ipv" />.
-- **Valor tasado de la vivienda libre:** 2.355 €/m² en el segundo trimestre de 2026, frente a 4.089,6 €/m² en la Comunidad de Madrid y 996,6 €/m² en Extremadura<Cite id="mivau-valor-tasado" />.
+- **Precio de compra:** <Dato id="ipv-anual" /> interanual en el <Dato id="ipv-anual" periodo /> (INE)<Cite id="ine-ipv" />.
+- **Valor tasado de la vivienda libre:** <Dato id="valor-tasado" /> en el <Dato id="valor-tasado" periodo />, frente a <Dato id="valor-tasado-madrid" /> en la Comunidad de Madrid y <Dato id="valor-tasado-extremadura" /> en Extremadura<Cite id="mivau-valor-tasado" />.
 - **Alquiler medio de una vivienda habitual** de propietarios particulares: 691 €/mes en 2024, y 766 €/mes en los contratos nuevos (territorio común)<Cite id="aeat-viviendas-irpf" />.
 - **Hogares de alquiler:** 20,2 % en 2025; propietarios, 73,3 %<Cite id="bde-ia-2025" />.
 - **Hogares no propietarios en [sobreesfuerzo](#g-sobreesfuerzo):** 32,5 % en 2024<Cite id="bde-ia-2025" />.
@@ -321,9 +697,9 @@ El Plan Estatal de Vivienda 2026-2030 exige que las viviendas financiadas con su
 
 ## Demanda y demografía
 
-A 1 de julio de 2026 había 19.874.860 hogares, 238.585 más que un año antes. El tamaño medio del hogar era de 2,49 personas y los hogares unipersonales sumaban 5.678.769<Cite id="ine-ecp" />. El Banco de España recuerda que, desde 2007, la población ha crecido un 8,5 % y los hogares en unos tres millones. Los hogares han crecido más deprisa que la población porque cada vez son más pequeños, lo que eleva la demanda de vivienda por cada habitante nuevo<Cite id="bde-ia-2025" />.
+A <Dato id="hogares" periodo /> había <Dato id="hogares" /> hogares, con una variación de <Dato id="hogares-variacion-anual" /> en un año. El tamaño medio del hogar era de <Dato id="hogar-tamano-medio" /> personas y los hogares unipersonales sumaban <Dato id="hogares-unipersonales" /><Cite id="ine-ecp" />. El Banco de España recuerda que, desde 2007, la población ha crecido un 8,5 % y los hogares en unos tres millones. Los hogares han crecido más deprisa que la población porque cada vez son más pequeños, lo que eleva la demanda de vivienda por cada habitante nuevo<Cite id="bde-ia-2025" />.
 
-El crecimiento reciente de la población se debe a personas nacidas en el extranjero. Entre el 1 de julio de 2025 y el 1 de julio de 2026, la población residente en viviendas familiares aumentó en 431.652 personas. Las nacidas en el extranjero crecieron en 526.903 y las nacidas en España disminuyeron en 95.251<Cite id="ine-ecp" />.
+En el año previo al <Dato id="poblacion-variacion-anual" periodo />, la población residente en viviendas familiares varió en <Dato id="poblacion-variacion-anual" /> personas. La nacida en el extranjero varió en <Dato id="poblacion-nacida-extranjero-variacion" /> y la nacida en España, en <Dato id="poblacion-nacida-espana-variacion" /><Cite id="ine-ecp" />.
 
 La emancipación se retrasa. En 2024, la edad media a la que los jóvenes se van del hogar familiar era de 30,4 años en España, frente a 26,2 en la Unión Europea. Solo el 31,5 % de los jóvenes de hasta 35 años estaba emancipado, 13,5 puntos menos que en 2007<Cite id="bde-ia-2025" />.
 
@@ -357,32 +733,32 @@ La rehabilitación tampoco ha despegado. En 2025 se visaron obras de rehabilitac
 
 | Indicador | Valor | Periodo |
 |---|---|---|
-| Índice de Precios de Vivienda, variación interanual | +12,2 % (vivienda nueva +7,4 %; segunda mano +12,9 %) | 2.º trimestre de 2026<Cite id="ine-ipv" /> |
-| Variación trimestral | +3,4 % | 2.º trimestre de 2026<Cite id="ine-ipv" /> |
-| Frente al máximo del 3.er trimestre de 2007, nominal | +31,7 % | Cálculo propio<Cite id="ine-ipv" /> |
-| Frente al máximo de 2007, descontada la inflación | −10,6 % | Cálculo propio<Cite id="ine-ipv" /><Cite id="ine-ipc" /> |
-| Valor tasado medio de la vivienda libre | 2.355 €/m² (+12,5 %) | 2.º trimestre de 2026<Cite id="mivau-valor-tasado" /> |
+| Índice de Precios de Vivienda, variación interanual | <Dato id="ipv-anual" /> (vivienda nueva <Dato id="ipv-anual-nueva" />; segunda mano <Dato id="ipv-anual-usada" />) | <Dato id="ipv-anual" periodo /><Cite id="ine-ipv" /> |
+| Variación trimestral | <Dato id="ipv-trimestral" /> | <Dato id="ipv-trimestral" periodo /><Cite id="ine-ipv" /> |
+| Frente al máximo del 3.er trimestre de 2007, nominal | <Dato id="ipv-nominal-max-2007" /> | Cálculo propio, <Dato id="ipv-nominal-max-2007" periodo /><Cite id="ine-ipv" /> |
+| Frente al máximo de 2007, descontada la inflación | <Dato id="ipv-real-max-2007" /> | Cálculo propio, <Dato id="ipv-real-max-2007" periodo /><Cite id="ine-ipv" /><Cite id="ine-ipc" /> |
+| Valor tasado medio de la vivienda libre (variación interanual) | <Dato id="valor-tasado" /> (<Dato id="valor-tasado-anual" />) | <Dato id="valor-tasado" periodo /><Cite id="mivau-valor-tasado" /> |
 
-El Banco de España obtiene una cifra coherente con estos cálculos: en el primer trimestre de 2026, los precios reales estaban un 12,2 % por debajo del máximo de 2007<Cite id="bde-ia-2025" />. Desde 2014, la renta disponible real de los hogares creció un 15 % (un 5,5 % por habitante), bastante menos que los precios<Cite id="bde-ia-2025" />.
+Con su propio cálculo, el Banco de España situaba los precios reales del primer trimestre de 2026 un 12,2 % por debajo del máximo de 2007<Cite id="bde-ia-2025" />. Desde 2014, la renta disponible real de los hogares creció un 15 % (un 5,5 % por habitante), bastante menos que los precios<Cite id="bde-ia-2025" />.
 
 Las diferencias territoriales son grandes:
 
-| Comunidad | Precio, variación interanual (2.º trim. 2026) | Valor tasado (€/m², 2.º trim. 2026) |
+| Comunidad | Precio, variación interanual | Valor tasado de la vivienda libre |
 |---|---|---|
-| Comunidad de Madrid | +12,9 % | 4.089,6 |
-| Cataluña | +10,1 % | 2.752,9 |
-| Illes Balears | +13,7 % | 3.980,8 (provincia) |
-| Canarias | +11,0 % | 2.279,4 |
-| Comunitat Valenciana | +13,0 % | 1.935,0 |
-| Andalucía | +11,9 % | 1.981,6 |
-| País Vasco | +10,0 % | 3.102,3 |
-| Navarra | +9,5 % | 1.936,4 |
+| Comunidad de Madrid | <Dato id="ipv-anual-madrid" /> | <Dato id="valor-tasado-madrid" /> |
+| Cataluña | <Dato id="ipv-anual-cataluna" /> | <Dato id="valor-tasado-cataluna" /> |
+| Illes Balears | <Dato id="ipv-anual-balears" /> | <Dato id="valor-tasado-balears" /> |
+| Canarias | <Dato id="ipv-anual-canarias" /> | <Dato id="valor-tasado-canarias" /> |
+| Comunitat Valenciana | <Dato id="ipv-anual-valenciana" /> | <Dato id="valor-tasado-valenciana" /> |
+| Andalucía | <Dato id="ipv-anual-andalucia" /> | <Dato id="valor-tasado-andalucia" /> |
+| País Vasco | <Dato id="ipv-anual-pais-vasco" /> | <Dato id="valor-tasado-pais-vasco" /> |
+| Navarra | <Dato id="ipv-anual-navarra" /> | <Dato id="valor-tasado-navarra" /> |
 
-Fuentes: INE<Cite id="ine-ipv" /> y Ministerio de Vivienda<Cite id="mivau-valor-tasado" />.
+Periodo: <Dato id="ipv-anual" periodo />. En Illes Balears, el valor tasado es el de la provincia. Fuentes: INE<Cite id="ine-ipv" /> y Ministerio de Vivienda<Cite id="mivau-valor-tasado" />.
 
 ### Compraventas
 
-El INE registró 711.543 compraventas de vivienda en 2025. De ellas, 154.332 fueron de vivienda nueva y 48.204 de vivienda protegida. Entre enero y julio de 2026 hubo 408.881, un 3,0 % menos que en el mismo periodo de 2025<Cite id="ine-etdp" />. El INE cuenta las operaciones cuando se inscriben en el Registro de la Propiedad, no cuando se firman. Por eso el Banco de España, que usa datos notariales, da una cifra algo mayor: más de 750.000 en 2025<Cite id="bde-ia-2025" />.
+El INE registró 711.543 compraventas de vivienda en 2025. De ellas, 154.332 fueron de vivienda nueva y 48.204 de vivienda protegida. En los últimos doce meses con datos (<Dato id="compraventas-12m" periodo />) se registraron <Dato id="compraventas-12m" />, con una variación del <Dato id="compraventas-12m-variacion" /> respecto a los doce meses anteriores<Cite id="ine-etdp" />. El INE cuenta las operaciones cuando se inscriben en el Registro de la Propiedad, no cuando se firman. Por eso el Banco de España, que usa datos notariales, da una cifra algo mayor: más de 750.000 en 2025<Cite id="bde-ia-2025" />.
 
 ### Quién compra y para qué
 
@@ -397,7 +773,7 @@ La ayuda familiar ha ganado peso. En 2025 se registraron 30.500 donaciones de vi
 
 ### Financiación
 
-En julio de 2026 se firmaron 43.372 hipotecas sobre vivienda, con un tipo de interés medio inicial del 3,01 %. El 62,3 % era a tipo fijo y el plazo medio, de 26 años<Cite id="ine-hipotecas" />. Para el conjunto de 2025, el Banco de España calcula un tipo efectivo medio del 2,75 % y una financiación media del 66,4 % del valor de la vivienda ([LTV](#g-ltv)). También señala que los tipos han vuelto a subir en 2026<Cite id="bde-ia-2025" />. En 2025 solo el 52 % de las compras se financió con hipoteca, frente al 70 % del máximo de 2007<Cite id="bde-ia-2025" />.
+En <Dato id="hipotecas-numero" periodo /> se firmaron <Dato id="hipotecas-numero" /> hipotecas sobre vivienda, con un tipo de interés medio inicial del <Dato id="hipotecas-tipo" />. El <Dato id="hipotecas-fijo" /> era a tipo fijo y el plazo medio, de <Dato id="hipotecas-plazo" /><Cite id="ine-hipotecas" />. Para el conjunto de 2025, el Banco de España calcula un tipo efectivo medio del 2,75 % y una financiación media del 66,4 % del valor de la vivienda ([LTV](#g-ltv)). También señala que los tipos han vuelto a subir en 2026<Cite id="bde-ia-2025" />. En 2025 solo el 52 % de las compras se financió con hipoteca, frente al 70 % del máximo de 2007<Cite id="bde-ia-2025" />.
 
 La política monetaria no la decide España, sino el Banco Central Europeo.
 
@@ -410,7 +786,7 @@ Los contratos de vivienda se rigen por la Ley de Arrendamientos Urbanos (LAU)<Ci
 - **Duración mínima:** cinco años, o siete si el casero es una persona jurídica. Después, el contrato se prorroga año a año hasta tres años más si ninguna de las partes avisa.
 - **Prórrogas extraordinarias:** el inquilino vulnerable puede pedir un año más si el casero es un [gran tenedor](#g-gran-tenedor), y en zona tensionada el inquilino puede pedir hasta tres años, con excepciones.
 - **Renta en zona tensionada:** el contrato nuevo no puede superar la renta del anterior (con su actualización), salvo un 10 % adicional en casos tasados. Si el casero es un gran tenedor, la renta no puede superar el índice de referencia del Estado.
-- **Actualización anual:** está limitada por el [IRAV](#g-irav), que en agosto de 2026 era del 2,47 %<Cite id="ine-irav" />, frente a una inflación general del 4,3 %<Cite id="ine-ipc" />.
+- **Actualización anual:** está limitada por el [IRAV](#g-irav), que en <Dato id="irav" periodo /> era del <Dato id="irav" /><Cite id="ine-irav" />, frente a una inflación general del <Dato id="ipc-anual" /> en <Dato id="ipc-anual" periodo /><Cite id="ine-ipc" />.
 
 ### Precios
 
@@ -426,7 +802,7 @@ En 2024, las personas físicas alquilaron como vivienda habitual 2.455.248 vivie
 
 Fuente: Agencia Tributaria, 2024. Solo viviendas de personas físicas<Cite id="aeat-viviendas-irpf" />.
 
-El índice de alquiler del INE, también limitado al territorio común, recoge una subida media del 3,5 % en 2024: un 8,8 % en los contratos nuevos y un 2,8 % en los ya existentes<Cite id="ine-ipva" />. El componente de alquiler del IPC, que refleja sobre todo contratos en vigor, subió un 2,5 % interanual en agosto de 2026<Cite id="ine-ipc" />.
+El índice de alquiler del INE, también limitado al territorio común, recoge una variación media del <Dato id="ipva-anual" /> en <Dato id="ipva-anual" periodo />: un <Dato id="ipva-anual-nuevos" /> en los contratos nuevos y un <Dato id="ipva-anual-existentes" /> en los ya existentes<Cite id="ine-ipva" />. El componente de alquiler del IPC, que refleja sobre todo contratos en vigor, registró una variación interanual del <Dato id="ipc-alquiler-anual" /> en <Dato id="ipc-alquiler-anual" periodo /><Cite id="ine-ipc" />.
 
 El Banco de España documenta una brecha creciente entre los contratos nuevos y los ya firmados. En 2024, las viviendas que entraban en alquiler se ofrecían a un precio un 16,5 % superior a la media del parque, frente al 6,2 % de 2020. Las actualizaciones de los contratos vigentes perdieron un 1,7 % anual en términos reales entre 2020 y 2024<Cite id="bde-ia-2025" />. El Banco de España interpreta que los caseros incorporan al precio inicial lo que no podrán subir después, por los límites a la actualización, y lo llama «capitalización de rentas futuras»<Cite id="bde-ia-2025" />.
 
@@ -438,7 +814,7 @@ Junto al alquiler de larga duración crecen otras modalidades. Según los portal
 
 ## Asequibilidad
 
-En 2024, la ganancia bruta anual media por trabajador fue de 29.540 € y la mediana, de 24.497 €<Cite id="ine-salarios" />. La mediana va de 20.632 € en Canarias a 31.912 € en el País Vasco; en la Comunidad de Madrid es de 28.038 € y en Cataluña, de 27.133 €<Cite id="ine-salarios" />.
+En <Dato id="salario-medio" periodo />, la ganancia bruta anual media por trabajador fue de <Dato id="salario-medio" /> y la mediana, de <Dato id="salario-mediano" /><Cite id="ine-salarios" />. La mediana es de <Dato id="salario-mediano-canarias" /> en Canarias, <Dato id="salario-mediano-pais-vasco" /> en el País Vasco, <Dato id="salario-mediano-madrid" /> en la Comunidad de Madrid y <Dato id="salario-mediano-cataluna" /> en Cataluña<Cite id="ine-salarios" />.
 
 El Banco de España mide el esfuerzo de los hogares que no son propietarios en 2024<Cite id="bde-ia-2025" />:
 
@@ -615,20 +991,20 @@ Desde 2020, un decreto aprobado durante la pandemia permitía suspender los desa
 
 ## Turismo, gentrificación y presión urbana
 
-En mayo de 2026, el INE identificó 341.001 viviendas turísticas anunciadas en plataformas, el 1,28 % del parque. Son menos que en mayo de 2025, cuando había 381.837<Cite id="ine-viviendas-turisticas" />. Su peso varía mucho:
+En <Dato id="vut-total" periodo />, el INE identificó <Dato id="vut-total" /> viviendas turísticas anunciadas en plataformas, el <Dato id="vut-porcentaje" /> del parque. Un año antes, en <Dato id="vut-total-hace-un-ano" periodo />, eran <Dato id="vut-total-hace-un-ano" /><Cite id="ine-viviendas-turisticas" />. Su peso varía según el territorio:
 
-| Ámbito | % de viviendas turísticas (mayo de 2026) |
+| Ámbito | % de viviendas turísticas |
 |---|---|
-| Provincia de Málaga | 4,53 % |
-| Canarias | 4,44 % |
-| Illes Balears | 3,27 % |
-| Málaga (municipio) | 3,17 % |
-| Valencia (municipio) | 1,30 % |
-| Barcelona (municipio) | 1,02 % |
-| Madrid (municipio) | 0,71 % |
-| Palma (municipio) | 0,29 % |
+| Provincia de Málaga | <Dato id="vut-porcentaje-provincia-malaga" /> |
+| Canarias | <Dato id="vut-porcentaje-canarias" /> |
+| Illes Balears | <Dato id="vut-porcentaje-balears" /> |
+| Málaga (municipio) | <Dato id="vut-porcentaje-malaga" /> |
+| Valencia (municipio) | <Dato id="vut-porcentaje-valencia" /> |
+| Barcelona (municipio) | <Dato id="vut-porcentaje-barcelona" /> |
+| Madrid (municipio) | <Dato id="vut-porcentaje-madrid" /> |
+| Palma (municipio) | <Dato id="vut-porcentaje-palma" /> |
 
-Fuente: INE<Cite id="ine-viviendas-turisticas" />.
+Periodo: <Dato id="vut-porcentaje" periodo />. Fuente: INE<Cite id="ine-viviendas-turisticas" />.
 
 Las viviendas turísticas suponen el 1,5 % del parque, pero cerca del 10 % del mercado del alquiler, y se concentran en los centros históricos. Junto con las viviendas de no residentes suman unas 900.000, el 3,3 % del parque<Cite id="bde-ia-2025" />. En Palma, el Banco de España atribuye el bajo peso de los pisos turísticos en el centro a las restricciones a esta actividad<Cite id="bde-ia-2025" />.
 

@@ -26,6 +26,10 @@
 - Hay que decir si una variación es nominal o real, interanual o acumulada, y si la cifra es una media o una mediana.
 - Las cifras se redondean de forma razonable en el texto; el valor exacto queda en las notas.
 
+## Cifras automáticas
+
+Las cifras declaradas en el `.fuentes.yml` del país se escriben con `<Dato id="..." />`, que muestra el valor ya formateado, y su periodo con `<Dato id="..." periodo />`. La cita va después, como con cualquier cifra: `<Dato id="ipv-anual" /><Cite id="ine-ipv" />`. El texto que las rodea no puede depender del valor, porque el valor cambiará solo.
+
 ## Fechas
 
 - **Normas:** nombre oficial completo la primera vez (`Ley X/AAAA, de D de mes, <título oficial>`), con la fecha de aprobación y la de entrada en vigor si son distintas. Después se puede usar un nombre corto.

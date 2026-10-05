@@ -22,6 +22,7 @@ Procedimiento para investigar un país (`$ARGUMENTS`) y dejar su documento públ
 
 - Documento público: `docs/paises/<region>/<slug>.md`, a partir de `plantillas/pais.md`.
 - Notas: `investigacion/<region>/<slug>.md`, a partir de `plantillas/investigacion.md`. Están fuera de `docs/`, así que no se publican.
+- Actualización automática: `investigacion/<region>/<slug>.fuentes.yml`, a partir de `plantillas/pais.fuentes.yml`. Ver `automatizacion/README.md`.
 - `slug`: nombre del país en español, en minúsculas, sin tildes y con guiones (`espana`, `paises-bajos`). `region`: una clave de `docs/.vitepress/regions.ts`.
 
 Si los dos ficheros ya existen, es una **actualización**: parte de las notas, revisa si hay publicaciones nuevas de cada fuente y conserva lo que siga vigente.
@@ -51,13 +52,18 @@ Recorre las secciones de [contenido.md](contenido.md). Para cada dato:
 
 1. Escribe el documento público siguiendo [estilo.md](estilo.md). La estructura de la plantilla es orientativa: las secciones se quitan, se fusionan o se añaden según el país.
 2. Las secciones sin datos no se dejan en blanco ni en "Pendiente". Se dice qué no existe o no se publica ("No hay estadística oficial sobre…").
-3. Escribe `summary` (una frase), pon `last_updated` a la fecha de hoy y ordena `sources` según su primera cita en el texto.
+3. Escribe `summary` (una frase), pon `last_updated` a la fecha de hoy y ordena `sources` según su primera cita en el texto (`npm run auto:fuentes`).
+4. **Prepara la actualización automática.** Las cifras que salen de una API o de un fichero oficial que se publica periódicamente se declaran en `datos` del `.fuentes.yml` y se escriben en el texto con `<Dato id="..." />`, nunca a mano. Para que la frase siga siendo cierta cuando cambie el valor:
+   - el periodo va con `<Dato id="..." periodo />`;
+   - la redacción no depende del valor: «registró una variación del», no «subió un»; nada de «dos dígitos», «son menos que» o «el más alto».
+
+   En `vigilancia` declara el boletín oficial, las leyes clave y las páginas de publicaciones de las fuentes que no tienen API. Después ejecuta `npm run auto:datos -- --pais <slug>`.
 
 ## Fase 4: comprobación
 
 1. Cada cifra del documento público tiene su fila en `Datos`, y su `<Cite>` apunta a la fuente de esa fila.
 2. Cada `id` citado existe en `sources`, y cada entrada de `sources` se cita al menos una vez.
-3. `npm run build` termina sin errores, y `grep -r "fuente desconocida" docs/.vitepress/dist` no devuelve nada.
+3. `npm run build` y `npm run auto:verificar -- --html` terminan sin errores.
 4. Relee el texto buscando adjetivos valorativos, afirmaciones causales sin una evaluación detrás y términos técnicos que no estén en el glosario.
 
 ## Fase 5: informe a Ian

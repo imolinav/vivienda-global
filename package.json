@@ -6,10 +6,21 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "auto:detectar": "tsx automatizacion/src/detectar.ts",
+    "auto:datos": "tsx automatizacion/src/actualizar-datos.ts",
+    "auto:fuentes": "tsx automatizacion/src/ordenar-fuentes.ts",
+    "auto:verificar": "tsx automatizacion/src/verificar.ts",
+    "auto:texto": "tsx automatizacion/src/lib/texto.ts",
+    "auto:tipos": "tsc -p automatizacion"
   },
   "devDependencies": {
+    "@types/node": "^22.20.5",
     "gray-matter": "^4.0.3",
-    "vitepress": "^1.6.4"
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "unpdf": "^1.8.1",
+    "vitepress": "^1.6.4",
+    "yaml": "^2.9.1"
   }
 }

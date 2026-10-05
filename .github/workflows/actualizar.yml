@@ -1,0 +1,128 @@
+name: Actualizar contenido
+
+# Daily update of the country pages. See automatizacion/README.md.
+# 09:30 UTC (10:30 or 11:30 in Madrid, depending on the season) is after
+# the BOE (published around 07:30 Madrid time) and the INE releases (09:00).
+on:
+  schedule:
+    - cron: "30 9 * * *"
+  workflow_dispatch:
+    inputs:
+      desde_boe:
+        description: "Revisar el BOE desde el día siguiente a esta fecha (AAAA-MM-DD). Vacío: lo normal."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+# Never two runs at once: both would push to main and to the state branch.
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Configurar git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # Watcher state lives on its own branch so main only gets content commits.
+      - name: Recuperar estado de los vigilantes
+        run: |
+          if git fetch -q origin automatizacion-estado; then
+            git archive FETCH_HEAD estado | tar -x -C automatizacion/
+          else
+            echo "Primera ejecución: sin estado previo"
+          fi
+
+      - name: Detectar novedades
+        id: detectar
+        env:
+          DESDE_BOE: ${{ inputs.desde_boe }}
+        run: npx tsx automatizacion/src/detectar.ts ${DESDE_BOE:+--desde-boe "$DESDE_BOE"}
+
+      - name: Actualizar datos
+        run: npx tsx automatizacion/src/actualizar-datos.ts
+
+      # Checkpoint: the deterministic update is committed locally so the
+      # agent's edits can be verified and, if needed, reverted on their own.
+      - name: Commit de datos
+        id: base
+        run: |
+          git add -A docs investigacion
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Actualización automática del $(TZ=Europe/Madrid date +%F): datos" -m "$(cat automatizacion/salida/datos.md)"
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Agente
+        id: agente
+        if: steps.detectar.outputs.novedades != '0'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          # Claude Pro subscription token (`claude setup-token`): runs count
+          # against the plan's usage instead of being billed as API usage.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: "/actualizar-pais"
+          claude_args: |
+            --model ${{ vars.MODELO_AGENTE || 'claude-opus-5-5' }}
+            --max-turns 80
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,Bash(npx tsx automatizacion/src/lib/texto.ts:*),Bash(npx tsx automatizacion/src/ordenar-fuentes.ts:*),Bash(npx tsx automatizacion/src/verificar.ts:*)"
+
+      - name: Ordenar fuentes
+        run: npx tsx automatizacion/src/ordenar-fuentes.ts
+
+      - name: Compilar
+        id: compilar
+        continue-on-error: true
+        run: npm run build
+
+      - name: Verificar
+        id: verificar
+        continue-on-error: true
+        run: npx tsx automatizacion/src/verificar.ts --html --base ${{ steps.base.outputs.sha }}
+
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_SHA: ${{ steps.base.outputs.sha }}
+          AGENTE: ${{ steps.agente.outcome }}
+          COMPILA: ${{ steps.compilar.outcome }}
+          VERIFICA: ${{ steps.verificar.outcome }}
+        run: bash automatizacion/publicar.sh
+
+      # Runs even if publishing failed: losing the state would make the next
+      # run report the same news again.
+      - name: Guardar estado de los vigilantes
+        if: always() && steps.detectar.outcome == 'success'
+        run: |
+          dir=$(mktemp -d)
+          if git fetch -q origin automatizacion-estado; then
+            git worktree add -q --detach "$dir" FETCH_HEAD
+          else
+            git worktree add -q --orphan -b automatizacion-estado "$dir"
+          fi
+          rm -rf "$dir/estado"
+          cp -r automatizacion/estado "$dir/estado"
+          cd "$dir"
+          git add -A estado
+          git diff --cached --quiet || git commit -q -m "Estado del $(TZ=Europe/Madrid date +%F)"
+          git push -q origin HEAD:automatizacion-estado

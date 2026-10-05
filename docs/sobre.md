@@ -14,6 +14,8 @@ Cuando un dato se repite con frecuencia pero no se ha podido localizar su origen
 
 ## Cómo se mantiene
 
+Las cifras estadísticas (precios, hipotecas, alquileres, población…) se actualizan automáticamente cada día desde las fuentes oficiales, con su periodo de referencia. Las novedades legales y los nuevos informes se incorporan solo después de comprobarlos contra el documento original.
+
 Todo el contenido son ficheros Markdown en un repositorio público. Cada documento indica su fecha de última actualización y sus fuentes, y el historial del repositorio recoge qué cambió y cuándo.
 
 ## Colaborar

@@ -1,0 +1,24 @@
+# Actualización automática de <país>. Guía completa en automatizacion/README.md.
+pais: pais
+region: europa
+documento: docs/paises/europa/pais.md
+notas: investigacion/europa/pais.md
+
+# Cifras que se recalculan cada día y se muestran con <Dato id="..." />.
+# `fuente` es un id de `sources` en el frontmatter de la página.
+# Orígenes: `ine` (serie de la API Tempus del INE) o `csv` (url, columnas, filtro).
+# Operaciones (`op`): ultimo (por defecto), variacion, variacion-referencia
+# (con `referencia` y, opcionalmente, `deflactor`), diferencia, suma,
+# variacion-suma. `periodo`: mes, trimestre, anual, inicio-trimestre, rango-meses.
+datos:
+  ejemplo-anual: { fuente: id-de-fuente, origen: ine, serie: CODIGO, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+
+vigilancia:
+  # Sumario diario del BOE (solo España). Secciones: 1, 3, T...
+  # boe: { secciones: ["1"], palabras: [vivienda], excluir: [] }
+  # Leyes cuya nueva versión consolidada hay que revisar.
+  # consolidadas: [{ id: BOE-A-..., nombre: "..." }]
+  # Series del INE cuyo nuevo periodo exige revisar texto (no cifras automáticas).
+  # series: [{ serie: CODIGO, nombre: "..." }]
+  # Páginas de publicaciones: un enlace nuevo que cumpla `patron` es una novedad.
+  paginas: []

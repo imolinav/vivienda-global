@@ -1,0 +1,153 @@
+# Actualización automática de España. La lee el workflow diario
+# (.github/workflows/actualizar.yml) a través de automatizacion/src/.
+#
+# - datos: cifras que se recalculan cada día sin IA y se muestran en la
+#   página con <Dato id="..." />. `fuente` es el id de la fuente en el
+#   frontmatter de la página.
+# - vigilancia: qué revisar para detectar novedades (leyes, informes,
+#   estudios). Solo si aparece algo nuevo se lanza el agente.
+pais: espana
+region: europa
+documento: docs/paises/europa/espana.md
+notas: investigacion/europa/espana.md
+
+datos:
+  # Precios de compra (INE, Índice de Precios de Vivienda)
+  ipv-anual: { fuente: ine-ipv, origen: ine, serie: IPV1376, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-trimestral: { fuente: ine-ipv, origen: ine, serie: IPV1522, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-nueva: { fuente: ine-ipv, origen: ine, serie: IPV1615, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-usada: { fuente: ine-ipv, origen: ine, serie: IPV1620, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-nominal-max-2007:
+    { fuente: ine-ipv, origen: ine, serie: IPV1209, op: variacion-referencia, referencia: { anyo: 2007, periodo: 21 }, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-real-max-2007:
+    { fuente: ine-ipv, origen: ine, serie: IPV1209, op: variacion-referencia, referencia: { anyo: 2007, periodo: 21 }, deflactor: { serie: IPC290751 }, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-madrid: { fuente: ine-ipv, origen: ine, serie: IPV1439, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-cataluna: { fuente: ine-ipv, origen: ine, serie: IPV1379, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-balears: { fuente: ine-ipv, origen: ine, serie: IPV1670, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-canarias: { fuente: ine-ipv, origen: ine, serie: IPV1536, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-valenciana: { fuente: ine-ipv, origen: ine, serie: IPV1394, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-andalucia: { fuente: ine-ipv, origen: ine, serie: IPV1625, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-pais-vasco: { fuente: ine-ipv, origen: ine, serie: IPV1484, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+  ipv-anual-navarra: { fuente: ine-ipv, origen: ine, serie: IPV1469, periodo: trimestre, unidad: "%", decimales: 1, signo: true }
+
+  # Valor tasado de la vivienda libre (Ministerio de Vivienda, CSV de datos abiertos)
+  valor-tasado: &tasado
+    fuente: mivau-valor-tasado
+    origen: csv
+    url: https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP006_01.csv
+    columnas: { anyo: Año, periodo: Trimestre, valor: Valor }
+    filtro: { Comunidad_Autónoma: Total nacional, Provincia: Total CCAA, Régimen: Libre }
+    periodo: trimestre
+    unidad: €/m²
+    decimales: 0
+  valor-tasado-anual: { <<: *tasado, op: variacion, desplazamiento: 4, unidad: "%", decimales: 1, signo: true }
+  valor-tasado-madrid: { <<: *tasado, filtro: { Comunidad_Autónoma: "Madrid, Comunidad de", Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-cataluna: { <<: *tasado, filtro: { Comunidad_Autónoma: Cataluña, Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-balears: { <<: *tasado, filtro: { Provincia: "Balears, Illes", Régimen: Libre } }
+  valor-tasado-canarias: { <<: *tasado, filtro: { Comunidad_Autónoma: Canarias, Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-valenciana: { <<: *tasado, filtro: { Comunidad_Autónoma: Comunitat Valenciana, Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-andalucia: { <<: *tasado, filtro: { Comunidad_Autónoma: Andalucía, Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-pais-vasco: { <<: *tasado, filtro: { Comunidad_Autónoma: País Vasco, Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-navarra: { <<: *tasado, filtro: { Comunidad_Autónoma: "Navarra, Comunidad Foral de", Provincia: Total CCAA, Régimen: Libre } }
+  valor-tasado-extremadura: { <<: *tasado, filtro: { Comunidad_Autónoma: Extremadura, Provincia: Total CCAA, Régimen: Libre } }
+
+  # Compraventas e hipotecas (INE)
+  compraventas-12m: { fuente: ine-etdp, origen: ine, serie: ETDP1826, op: suma, n: 12, periodo: rango-meses, decimales: 0 }
+  compraventas-12m-variacion: { fuente: ine-etdp, origen: ine, serie: ETDP1826, op: variacion-suma, n: 12, periodo: rango-meses, unidad: "%", decimales: 1, signo: true }
+  hipotecas-numero: { fuente: ine-hipotecas, origen: ine, serie: HPT34618, periodo: mes, decimales: 0 }
+  hipotecas-tipo: { fuente: ine-hipotecas, origen: ine, serie: HPT64408, periodo: mes, unidad: "%", decimales: 2 }
+  hipotecas-fijo: { fuente: ine-hipotecas, origen: ine, serie: HPT64401, periodo: mes, unidad: "%", decimales: 1 }
+  hipotecas-plazo: { fuente: ine-hipotecas, origen: ine, serie: HPT64412, periodo: mes, unidad: años, decimales: 0 }
+
+  # Alquiler e inflación (INE)
+  irav: { fuente: ine-irav, origen: ine, serie: IRAV1, periodo: mes, unidad: "%", decimales: 2 }
+  ipc-anual: { fuente: ine-ipc, origen: ine, serie: IPC290750, periodo: mes, unidad: "%", decimales: 1 }
+  ipc-alquiler-anual: { fuente: ine-ipc, origen: ine, serie: IPC290886, periodo: mes, unidad: "%", decimales: 1 }
+  ipva-anual: { fuente: ine-ipva, origen: ine, serie: IPVA5016, periodo: anual, unidad: "%", decimales: 1 }
+  ipva-anual-nuevos: { fuente: ine-ipva, origen: ine, serie: IPVA9824, periodo: anual, unidad: "%", decimales: 1 }
+  ipva-anual-existentes: { fuente: ine-ipva, origen: ine, serie: IPVA9823, periodo: anual, unidad: "%", decimales: 1 }
+
+  # Salarios (INE, Encuesta Anual de Estructura Salarial)
+  salario-medio: { fuente: ine-salarios, origen: ine, serie: EAES741, periodo: anual, unidad: €, decimales: 0 }
+  salario-mediano: { fuente: ine-salarios, origen: ine, serie: EAES738, periodo: anual, unidad: €, decimales: 0 }
+  salario-mediano-canarias: { fuente: ine-salarios, origen: ine, serie: EAES708, periodo: anual, unidad: €, decimales: 0 }
+  salario-mediano-pais-vasco: { fuente: ine-salarios, origen: ine, serie: EAES642, periodo: anual, unidad: €, decimales: 0 }
+  salario-mediano-madrid: { fuente: ine-salarios, origen: ine, serie: EAES660, periodo: anual, unidad: €, decimales: 0 }
+  salario-mediano-cataluna: { fuente: ine-salarios, origen: ine, serie: EAES684, periodo: anual, unidad: €, decimales: 0 }
+
+  # Hogares y población (INE, Estadística Continua de Población)
+  hogares: { fuente: ine-ecp, origen: ine, serie: ECP355533, periodo: inicio-trimestre, decimales: 0 }
+  hogares-variacion-anual: { fuente: ine-ecp, origen: ine, serie: ECP355533, op: diferencia, desplazamiento: 4, periodo: inicio-trimestre, decimales: 0, signo: true }
+  hogares-unipersonales: { fuente: ine-ecp, origen: ine, serie: ECP355532, periodo: inicio-trimestre, decimales: 0 }
+  hogar-tamano-medio: { fuente: ine-ecp, origen: ine, serie: ECP355534, periodo: inicio-trimestre, decimales: 2 }
+  poblacion-variacion-anual: { fuente: ine-ecp, origen: ine, serie: ECP329968, op: diferencia, desplazamiento: 4, periodo: inicio-trimestre, decimales: 0, signo: true }
+  poblacion-nacida-extranjero-variacion: { fuente: ine-ecp, origen: ine, serie: ECP329848, op: diferencia, desplazamiento: 4, periodo: inicio-trimestre, decimales: 0, signo: true }
+  poblacion-nacida-espana-variacion: { fuente: ine-ecp, origen: ine, serie: ECP329908, op: diferencia, desplazamiento: 4, periodo: inicio-trimestre, decimales: 0, signo: true }
+
+  # Viviendas turísticas (INE, estadística experimental; datos de mayo y noviembre)
+  vut-total: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE71, periodo: mes, decimales: 0 }
+  vut-total-hace-un-ano: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE71, desplazamiento: 2, periodo: mes, decimales: 0 }
+  vut-porcentaje: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE287, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-provincia-malaga: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE261, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-canarias: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE282, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-balears: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE283, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-malaga: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE28305, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-valencia: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE25605, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-barcelona: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE31958, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-madrid: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE28473, periodo: mes, unidad: "%", decimales: 2 }
+  vut-porcentaje-palma: { fuente: ine-viviendas-turisticas, origen: ine, serie: VTE32004, periodo: mes, unidad: "%", decimales: 2 }
+
+vigilancia:
+  # Sumario diario del BOE: disposiciones generales (1), otras disposiciones
+  # (3, donde salen las zonas tensionadas) y Tribunal Constitucional (T).
+  boe:
+    secciones: ["1", "3", "T"]
+    palabras:
+      - vivienda
+      - arrendamiento
+      - alquiler
+      - desahucio
+      - lanzamiento
+      - mercado residencial tensionado
+      - Ley 12/2023
+      - Arrendamientos Urbanos
+      - SOCIMI
+      - uso turístico
+      - Registro Único de Arrendamientos
+      - Plan Estatal de Vivienda
+      - Casa 47
+    excluir:
+      # Recursos de particulares contra calificaciones registrales: decenas al mes, sin interés general.
+      - Seguridad Jurídica y Fe Pública
+      - Convenio entre
+      - Convenio de colaboración
+      - Adenda
+
+  # Leyes clave: una nueva versión consolidada indica que algo las ha modificado.
+  consolidadas:
+    - { id: BOE-A-2023-12203, nombre: "Ley 12/2023, por el derecho a la vivienda" }
+    - { id: BOE-A-1994-26003, nombre: "Ley 29/1994, de Arrendamientos Urbanos" }
+    - { id: BOE-A-2006-20764, nombre: "Ley 35/2006, del IRPF" }
+    - { id: BOE-A-2004-4214, nombre: "Ley Reguladora de las Haciendas Locales" }
+    - { id: BOE-A-2009-17000, nombre: "Ley 11/2009, de SOCIMI" }
+    - { id: BOE-A-1992-28740, nombre: "Ley 37/1992, del IVA" }
+    - { id: BOE-A-1960-10906, nombre: "Ley 49/1960, de Propiedad Horizontal" }
+    - { id: BOE-A-2020-4208, nombre: "Real Decreto-ley 11/2020 (moratoria de desahucios)" }
+
+  # Publicaciones periódicas que alimentan texto (no cifras automáticas).
+  paginas:
+    - nombre: Banco de España, Informe Anual
+      url: https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/
+      patron: ^https://www\.bde\.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-\d{4}\.html$
+    - nombre: Banco de España, Informe de Estabilidad Financiera
+      url: https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/
+      patron: ^https://www\.bde\.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-.*\d{4}\.html$
+    - nombre: Agencia Tributaria, Estadística de viviendas declaradas en el IRPF
+      url: https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/estadistica-viviendas-declaradas-irpf.html
+      patron: irpfvivienda/\d{4}/home\.html$
+    - nombre: CGPJ, Efectos de la crisis en los órganos judiciales (lanzamientos)
+      url: https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Efecto-de-la-Crisis-en-los-organos-judiciales/
+      patron: /stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto
+    - nombre: CIS, barómetros
+      url: https://www.cis.es/avance-de-resultados
+      patron: ^https://www\.cis\.es/es/estudios/barometro-de-

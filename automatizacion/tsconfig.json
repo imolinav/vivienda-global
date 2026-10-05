@@ -1,0 +1,15 @@
+{
+  // Type-checking only: the scripts run through tsx, which resolves
+  // extensionless imports like a bundler does. `npm run auto:tipos`.
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023", "DOM"],
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "../docs/.vitepress/theme/datos.ts"]
+}
