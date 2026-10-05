@@ -1,0 +1,98 @@
+{
+  "fallos": {},
+  "boe": {
+    "ultimaFecha": "2026-10-05"
+  },
+  "consolidadas": {
+    "BOE-A-2023-12203": "02/10/2026",
+    "BOE-A-1994-26003": "02/10/2026",
+    "BOE-A-2006-20764": "02/10/2026",
+    "BOE-A-2004-4214": "02/10/2026",
+    "BOE-A-2009-17000": "02/10/2026",
+    "BOE-A-1992-28740": "02/10/2026",
+    "BOE-A-1960-10906": "03/10/2026",
+    "BOE-A-2020-4208": "28/02/2026"
+  },
+  "paginas": {
+    "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/": [
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2025.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2024.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2023.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2022.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2021.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2020.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2019.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2018.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2017.html",
+      "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-anual/informe-anual-2016.html"
+    ],
+    "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/": [
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera-primavera-2026.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera-otono-2025.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera-primavera-2025.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera-otono-2024.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera--primavera-2024.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-de-estabilidad-financiera--otono-2023.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-estabilidad-financiera--primavera-2022.html",
+      "https://www.bde.es/wbe/es/publicaciones/estabilidad-financiera-politica-macroprudencial/informe-estabilidad-financiera/informe-estabilidad-financiera--otono-2021.html"
+    ],
+    "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/estadistica-viviendas-declaradas-irpf.html": [
+      "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/irpfvivienda/2024/home.html",
+      "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/irpfvivienda/2023/home.html"
+    ],
+    "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Efecto-de-la-Crisis-en-los-organos-judiciales/": [
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T-2026-%20con%20Microempresas_revisado.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20-%20Anual%202025.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%204T-2025-%20con%20Microempresas.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%203T-2025-%20con%20Microempresas.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202T-2025-%20con%20Microempresas.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T%202025-%20con%20Microempresas.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20-%20Anual%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%204T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%204T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%203T%202024V2.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%203T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%202T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%201T%202024.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20-%20Anual%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%20-%20Anual%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%204T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%204T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%203T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%203T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%202T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%201T%202023.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20%C3%B3rganos%20judiciales%20-%20Anual%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%20%20-%20Anual%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20-%20%204T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%204T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%203T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%203T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%202T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%201T%202022.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%204T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%204T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%203T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%203T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%202T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%202T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%201T%202021.xlsx",
+      "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%201T%202021.xlsx"
+    ],
+    "https://www.cis.es/avance-de-resultados": [
+      "https://www.cis.es/es/estudios/barometro-de-septiembre-2026",
+      "https://www.cis.es/es/estudios/barometro-de-julio-2026",
+      "https://www.cis.es/es/estudios/barometro-de-junio-2026",
+      "https://www.cis.es/es/estudios/barometro-de-mayo-2026",
+      "https://www.cis.es/es/estudios/barometro-de-abril-2026"
+    ]
+  }
+}
