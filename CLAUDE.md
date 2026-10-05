@@ -12,11 +12,12 @@ Proyecto personal de Ian. Una web pública que explica, país a país, cómo est
 - **VitePress como generador.** Se eligió frente a Jekyll, Starlight, MkDocs Material o un sitio a medida porque da menú lateral, buscador local y diseño responsive sin trabajo, y porque Ian es desarrollador frontend senior con Vue y TypeScript.
 - **Sitio estático desplegado con GitHub Actions en GitHub Pages**, en cada push a `main`.
 - **Fuentes en el frontmatter, no en el cuerpo.** Así un futuro script de actualización puede leerlas y reescribirlas sin parsear prosa. Cada fuente tiene un `id` y se cita en el texto con `<Cite id="..." />`, que se muestra como `[n]` y enlaza a la lista numerada del final.
-- **Investigación país a país con el skill `/investigar-pais`** (`.claude/skills/investigar-pais/`), no con un script. El skill fija el procedimiento, qué investigar y cómo redactar. Hay un punto de control con Ian antes de investigar: mapa de fuentes, alcance subnacional y lista de debates.
+- **Investigación país a país con el skill `/investigar-pais`** (`.claude/skills/investigar-pais/`), no con un script. El skill fija el procedimiento, qué investigar y cómo redactar. Hay un punto de control con Ian antes de investigar: mapa de fuentes y alcance subnacional.
 - **Notas de investigación en `investigacion/<region>/<pais>.md`**, fuera de `docs/`, así que no se publican. Relacionan cada cifra con el punto exacto de su fuente y guardan lo descartado y las preguntas abiertas.
 - **Alcance por país:** marco nacional, diferencias regionales relevantes y las 4 o 5 ciudades principales. No se recorren todas las regiones.
 - **Una sola página por país**, aunque sea larga. Se navega con el índice lateral.
 - **Datos no contrastados:** se publican con `<Badge type="warning" text="no contrastado" />` y explicando el motivo.
+- **Sin sección de "debates y datos".** Se probó en España (afirmaciones del debate público contrastadas con datos) y Ian la descartó el 2026-10-05: no aporta a lo que busca la web. Los datos útiles van en su sección temática.
 - **Glosario por país**, como última sección, con anclas `{#g-termino}`.
 - **Git:** todo va a `main`. Ian hace los commits y los push; Claude no.
 
@@ -33,7 +34,7 @@ El esqueleto está hecho y compila (`npm run build`), tanto en la raíz como baj
 - `.claude/skills/investigar-pais/`: `SKILL.md` (procedimiento), `contenido.md` (qué investigar), `estilo.md` (redacción, citas, cifras, glosario).
 - `.github/workflows/deploy.yml`: build y despliegue.
 
-`docs/paises/europa/espana.md` y `docs/paises/asia/japon.md` existen solo como estructura, con todas las secciones en "Pendiente" y la plantilla antigua. España es el primer país que se va a investigar.
+`docs/paises/europa/espana.md` tiene una primera versión completa (2026-10-05), con sus notas en `investigacion/europa/espana.md`. Hay que revisar la parte política después de las elecciones del 29 de noviembre de 2026. `docs/paises/asia/japon.md` sigue siendo solo estructura, con la plantilla antigua.
 
 ## Frontmatter de cada país
 
@@ -63,7 +64,6 @@ El esqueleto está hecho y compila (`npm run build`), tanto en la raíz como baj
 - **Visibilidad del repo.** GitHub Pages con repo privado requiere plan de pago; en cuenta Free solo funciona con repo público. Si acaba siendo privado sin plan de pago, hay que desplegar en Cloudflare Pages, Netlify o Vercel, eliminar el workflow y `BASE_PATH`, y reescribir `docs/sobre.md`, que ahora habla de repositorio público y pull requests.
 - **Nombre definitivo** (se cambia en `config.ts` y `docs/index.md`).
 - **Orden de los países después de España.**
-- **Sección "Debates y datos"**: afirmaciones del debate público contrastadas con datos. Está en evaluación; en cada país se propone la lista y Ian decide.
 
 ## Futuro, no implementar todavía
 

@@ -112,16 +112,7 @@ Se dan los tipos y condiciones principales, con un enlace a la página oficial p
 - Desahucios **por causa**: impago de alquiler, impago de hipoteca, ocupación u otras.
 - Personas sin hogar: dato oficial y fecha del último recuento.
 - Hacinamiento y vivienda inadecuada.
-
-## Debates y datos
-
-Solo se escribe si Ian ha aprobado la lista de afirmaciones para este país. Para cada afirmación:
-
-- quién la sostiene;
-- qué dicen los datos, con la **definición jurídica precisa** cuando importe. Por ejemplo, en España no es lo mismo allanamiento de morada (art. 202 del Código Penal) que usurpación (art. 245) o el impago de un alquiler, y las cifras cambian mucho según cuál se mire;
-- qué no se puede saber con los datos disponibles.
-
-Sin veredicto propio: se expone lo que los datos permiten afirmar y lo que no.
+- Ocupación ilegal de viviendas, si es un tema relevante en el país: cifras oficiales con la **definición jurídica precisa**. En España, por ejemplo, no es lo mismo allanamiento de morada (art. 202 del Código Penal) que usurpación (art. 245) o el impago de un alquiler, y las cifras cambian mucho según cuál se mire.
 
 ## Glosario
 

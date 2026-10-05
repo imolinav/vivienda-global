@@ -31,8 +31,7 @@ Si los dos ficheros ya existen, es una **actualización**: parte de las notas, r
 1. Crea o abre las notas.
 2. **Mapa de fuentes.** Identifica los organismos de referencia del país: instituto de estadística, banco central, ministerio o agencia de vivienda, boletín oficial, parlamento (registro de votaciones), agencia tributaria, estadística judicial, censo y autoridades fiscales independientes. Añade las fuentes internacionales que cubran el país (Eurostat, OCDE, BIS, FMI, Banco Mundial, ONU-Hábitat). Anota qué publica cada uno y con qué periodicidad.
 3. **Alcance subnacional.** Determina quién tiene competencias en vivienda y propone qué regiones y ciudades se cubren. El criterio es el marco nacional, las diferencias regionales que importan de verdad y las 4 o 5 ciudades principales.
-4. **Debates y datos.** Propón entre 4 y 8 afirmaciones muy presentes en el debate público del país, de todo el espectro político. Para cada una, indica quién la sostiene y con qué datos se podría contrastar. No se investigan hasta que Ian las apruebe. La sección todavía está en evaluación y puede acabar fuera.
-5. **Punto de control.** Presenta a Ian el mapa de fuentes, el alcance y la lista de debates, junto con cualquier duda. Espera su respuesta antes de seguir.
+4. **Punto de control.** Presenta a Ian el mapa de fuentes y el alcance, junto con cualquier duda. Espera su respuesta antes de seguir.
 
 ## Fase 2: investigación
 

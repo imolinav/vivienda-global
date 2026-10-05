@@ -16,13 +16,6 @@ Organismos de referencia del país y qué publica cada uno, con su periodicidad.
 | Organismo | Qué publica | Periodicidad | URL |
 |---|---|---|---|
 
-## Debates y datos
-
-Estado de la lista: propuesta / aprobada / descartada.
-
-| Afirmación | Quién la sostiene | Datos que permiten contrastarla | Estado |
-|---|---|---|---|
-
 ## Datos
 
 Un registro por cifra que aparezca en el documento público. `Fuente` es el `id` del frontmatter. `Ubicación`: tabla, página, serie o consulta exacta. Estados: verificado, fuente secundaria, no contrastado.

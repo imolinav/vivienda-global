@@ -74,10 +74,6 @@ Vivienda de uso turístico, sustitución de residentes, regulación.
 
 Desahucios por causa, sinhogarismo, hacinamiento.
 
-## Debates y datos
-
-Sección opcional: solo si se ha aprobado la lista de afirmaciones para este país.
-
 ## Glosario
 
 **Término.** Explicación en lenguaje llano. [Más información](https://ejemplo.org). {#g-termino}
