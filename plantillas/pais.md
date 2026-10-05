@@ -5,35 +5,79 @@ title: Nombre del país
 summary: Resumen en una línea de la situación actual.
 # Fecha de la última revisión del contenido, formato AAAA-MM-DD.
 last_updated: 2026-01-01
-# Se muestran automáticamente al final de la página.
+# Se muestran numeradas al final de la página, en este orden.
+# Ordénalas por primera aparición en el texto y cítalas con <Cite id="..." />.
+# `id`: corto, en minúsculas, organismo-tema (ine-ipv, bde-eff, boe-ley-12-2023).
+# `date`: fecha o periodo de la publicación consultada, no de la consulta.
 sources:
-  - title: Nombre de la fuente
+  - id: organismo-tema
+    title: Organismo — Título de la publicación
     url: https://ejemplo.org/informe
     date: "2026"
 ---
 
 # Nombre del país
 
-## Panorama general
+## Resumen
 
-Dos o tres párrafos: qué está pasando y por qué importa.
+Tres o cuatro párrafos con la situación general: qué está pasando, por qué y qué se está haciendo.
+
+### Cifras clave
+
+- Cifra, con su periodo de referencia.<Cite id="organismo-tema" />
+
+## Contexto político e institucional
+
+Quién gobierna en cada nivel, reparto de competencias en vivienda, peso de la vivienda en la agenda pública.
+
+## Parque de viviendas y tenencia
+
+Viviendas existentes y su uso, régimen de tenencia, vivienda social y qué significa en este país, calidad del parque.
+
+## Demanda y demografía
+
+Población, hogares, migración, emancipación.
+
+## Oferta y construcción
+
+Qué se construye, cuánto y de qué tipo. Suelo, licencias, costes.
 
 ## Compra
 
-Precios, evolución reciente, acceso a hipoteca, quién compra.
+Precios, compraventas, quién compra y para qué, financiación.
 
 ## Alquiler
 
-Precios, regulación, peso del alquiler sobre los ingresos.
+Precios, marco legal, modalidades, quién alquila.
 
-## Política pública
+## Asequibilidad
 
-Leyes vigentes, vivienda social, medidas recientes y su efecto.
+Salarios, tasa de esfuerzo, sobrecarga.
 
-## Indicadores propios
+## Propiedad, concentración e inversión
 
-Las medidas que se usan en este país, aunque no existan en otros.
+Estructura de la propiedad, grandes tenedores, inversión institucional, medidas sobre especulación.
 
-## Contexto adicional
+## Fiscalidad
 
-Demografía, turismo, construcción, o lo que explique la situación.
+Comprar, tener, alquilar, vender, heredar. Particulares, sociedades y no residentes.
+
+## Política de vivienda
+
+Normas vigentes con fechas, quién las impulsó y quién las votó, evaluaciones de sus efectos, ayudas, medidas en trámite.
+
+## Turismo, gentrificación y presión urbana
+
+Vivienda de uso turístico, sustitución de residentes, regulación.
+
+## Exclusión residencial
+
+Desahucios por causa, sinhogarismo, hacinamiento.
+
+## Debates y datos
+
+Sección opcional: solo si se ha aprobado la lista de afirmaciones para este país.
+
+## Glosario
+
+**Término.** Explicación en lenguaje llano. [Más información](https://ejemplo.org). {#g-termino}
