@@ -1,7 +1,7 @@
 ---
 title: España
 summary: Precios de compra por encima del máximo nominal de 2007, un tercio de los hogares no propietarios en sobreesfuerzo y una oferta que crece menos que los hogares, con elecciones convocadas tras la derogación de dos decretos de vivienda.
-last_updated: 2026-10-05
+last_updated: 2026-10-08
 sources:
   - id: moncloa-elecciones
     title: "La Moncloa — Pedro Sánchez anuncia la convocatoria de elecciones generales para el 29 de noviembre"
@@ -31,6 +31,14 @@ sources:
     title: "BOE — Resolución de 2 de octubre de 2026, del Congreso, de derogación del Real Decreto-ley 27/2026"
     url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527
     date: "2 de octubre de 2026"
+  - id: boe-rdl-29-2026
+    title: "BOE — Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible"
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823
+    date: "7 de octubre de 2026"
+  - id: boe-rdl-28-2026
+    title: "BOE — Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual"
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822
+    date: "7 de octubre de 2026"
   - id: cis-barometro-3577
     title: "CIS — Barómetro de septiembre 2026 (estudio 3577), avance de resultados"
     url: https://www.cis.es/documents/d/guest/es3577mar_A-pdf
@@ -615,7 +623,7 @@ El Banco de España sitúa en el origen del problema un desajuste persistente en
 
 El alquiler ha ganado peso de forma sostenida: el 20,2 % de los hogares vivía de alquiler en 2025, y entre los menores de 30 años lo hacía el 54,7 %<Cite id="bde-ia-2025" />. Las viviendas que entran en alquiler se ofrecen a precios superiores a la media del parque: un 16,5 % más en 2024<Cite id="bde-ia-2025" />. Un 32,5 % de los hogares que no son propietarios dedica más del 30 % de su renta neta al alquiler, y en Málaga, Sevilla, Barcelona o Madrid esa proporción supera el 40 %<Cite id="bde-ia-2025" />.
 
-En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. La vivienda es el problema más citado en el barómetro del CIS: el 37,5 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3577" />.
+En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. El 7 de octubre el BOE publicó dos decretos nuevos que retoman buena parte de su contenido<Cite id="boe-rdl-29-2026" /><Cite id="boe-rdl-28-2026" />. La vivienda es el problema más citado en el barómetro del CIS: el 37,5 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3577" />.
 
 ### Cifras clave
 
@@ -668,7 +676,12 @@ El 29 de septiembre de 2026 el Gobierno aprobó dos [reales decretos-leyes](#g-r
 
 El 2 de octubre de 2026 el Congreso acordó derogar los dos decretos<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />. Según la información publicada, el primero cayó por 172 votos a favor y 178 en contra, con el voto negativo de PP, Vox, Junts y UPN. Contra el segundo votaron además el PNV y Coalición Canaria<Cite id="prensa-votacion-decretos" /> <Badge type="warning" text="no contrastado" />. Estas cifras no se han podido comprobar todavía en el Diario de Sesiones, que aún no está publicado, y las fuentes difieren en el número de votos favorables al segundo decreto.
 
-Según informaciones de prensa del 5 de octubre, el Gobierno pretende volver a aprobar ambos textos para que los convalide la [Diputación Permanente](#g-diputacion-permanente)<Cite id="prensa-reaprobacion-decretos" /> <Badge type="warning" text="no contrastado" />. A la fecha de esta revisión no se ha publicado ningún decreto nuevo en el BOE, y las informaciones disponibles no coinciden sobre si la aprobación ya se ha producido.
+La prensa había adelantado el 5 de octubre que el Gobierno volvería a aprobar ambos textos para que los convalidara la [Diputación Permanente](#g-diputacion-permanente)<Cite id="prensa-reaprobacion-decretos" />. El 7 de octubre de 2026 el BOE publicó dos decretos nuevos con los mismos títulos:
+
+- **Real Decreto-ley 29/2026,** de 6 de octubre, en vigor desde el día siguiente a su publicación. Su preámbulo justifica aprobarlo tras la derogación de otro «de contenido parcial o sustancialmente coincidente». No es idéntico al RDL 26/2026: por ejemplo, la limitación de compras por entidades se extiende hasta el 31 de diciembre de 2030, y no hasta 2028. Mantiene la suspensión hasta 2030 de los desahucios de personas vulnerables sin alternativa habitacional. Hasta el 31 de diciembre de 2027, la renta no puede subir en la actualización anual si supera el límite del sistema de índices de precios de referencia; en los demás casos, a falta de nuevo pacto, la subida no puede superar el 2 %<Cite id="boe-rdl-29-2026" />.
+- **Real Decreto-ley 28/2026,** de 6 de octubre, que entra en vigor el 15 de noviembre de 2026<Cite id="boe-rdl-28-2026" />.
+
+Las demás secciones de este documento todavía no recogen todos los cambios de estos dos decretos.
 
 ## Parque de viviendas y tenencia
 
@@ -886,14 +899,14 @@ Las [SOCIMI](#g-socimi) son sociedades cotizadas de inversión inmobiliaria con 
 - pagan un gravamen del 19 % sobre los dividendos que reparten a socios significativos que tributan poco;
 - pagan un 15 % sobre los beneficios que no reparten.
 
-El RDL 26/2026 elevaba ese último gravamen al 25 % para los beneficios del alquiler residencial, pero fue derogado<Cite id="boe-rdl-26-2026" /><Cite id="boe-derogacion-rdl-26" />.
+El RDL 26/2026 elevaba ese último gravamen al 25 % para los beneficios del alquiler residencial, pero fue derogado<Cite id="boe-rdl-26-2026" /><Cite id="boe-derogacion-rdl-26" />. El RDL 29/2026, en vigor desde el 8 de octubre de 2026, vuelve a establecer un gravamen especial del 25 % sobre los beneficios no distribuidos procedentes del alquiler residencial<Cite id="boe-rdl-29-2026" />.
 
 ### Medidas sobre la especulación
 
 - **Recargo del IBI a viviendas vacías.** Desde la Ley 12/2023, los ayuntamientos pueden cobrar un recargo de hasta el 50 % a las viviendas vacías más de dos años, cuyo titular tenga al menos cuatro. El recargo puede subir al 100 % si llevan más de tres años vacías y sumar 50 puntos más en algunos casos. La ley prevé causas justificadas, como el traslado laboral o la venta o el alquiler a precio de mercado<Cite id="boe-trlrhl" />.
 - **ITP incrementado en Cataluña.** Desde el 27 de junio de 2025, Cataluña aplica un ITP del 20 % cuando compra vivienda un gran tenedor y en la compra de edificios enteros, con excepciones<Cite id="hacienda-tributacion-autonomica-2026" />.
 - **Fin de la *golden visa*.** Desde el 3 de abril de 2025 ya no se conceden visados de residencia por invertir en inmuebles. Las solicitudes previas y las renovaciones se rigen por la norma anterior<Cite id="boe-lo-1-2025" />.
-- **Limitación de compras por entidades.** El RDL 26/2026 limitaba hasta 2028 la compra de viviendas por entidades con objeto inmobiliario, pero quedó derogado al día siguiente de entrar en vigor<Cite id="boe-rdl-26-2026" /><Cite id="boe-derogacion-rdl-26" />.
+- **Limitación de compras por entidades.** El RDL 26/2026 limitaba hasta 2028 la compra de viviendas por entidades con objeto inmobiliario, pero quedó derogado al día siguiente de entrar en vigor<Cite id="boe-rdl-26-2026" /><Cite id="boe-derogacion-rdl-26" />. El RDL 29/2026 la vuelve a establecer desde el 8 de octubre de 2026, ahora hasta el 31 de diciembre de 2030<Cite id="boe-rdl-29-2026" />.
 
 ## Fiscalidad
 
@@ -927,7 +940,7 @@ Los propietarios particulares pueden reducir en el IRPF el rendimiento neto del 
 - **60 %:** vivienda rehabilitada en los dos años anteriores.
 - **50 %:** el resto de los casos.
 
-El texto consolidado del BOE todavía muestra la redacción que introdujo el RDL 26/2026, pero esa reforma quedó sin efecto con la derogación del 2 de octubre<Cite id="boe-derogacion-rdl-26" />.
+La reforma de estas reducciones que introdujo el RDL 26/2026 quedó sin efecto con la derogación del 2 de octubre<Cite id="boe-derogacion-rdl-26" />. El RDL 29/2026, en vigor desde el 8 de octubre de 2026, vuelve a modificarlas y añade, por ejemplo, una reducción del 80 % durante la prórroga tácita del contrato cuando el arrendador no sea gran tenedor y se respete el límite de renta de referencia<Cite id="boe-rdl-29-2026" />. Este documento todavía no detalla la nueva redacción.
 
 ### Al vender y heredar
 
@@ -987,7 +1000,7 @@ Sobre las ayudas a la demanda, como los bonos de alquiler, los avales para la en
 
 ### Protección frente a desahucios
 
-Desde 2020, un decreto aprobado durante la pandemia permitía suspender los desahucios de hogares vulnerables sin alternativa habitacional. Esa moratoria estuvo vigente hasta el 31 de diciembre de 2025. Los dos decretos que la ampliaban a 2026 (el RDL 16/2025 y el RDL 2/2026) quedaron sin efecto al no ser convalidados, en enero y febrero de 2026<Cite id="boe-rdl-11-2020" />. El RDL 26/2026, que la extendía hasta 2030, también fue derogado<Cite id="boe-derogacion-rdl-26" />.
+Desde 2020, un decreto aprobado durante la pandemia permitía suspender los desahucios de hogares vulnerables sin alternativa habitacional. Esa moratoria estuvo vigente hasta el 31 de diciembre de 2025. Los dos decretos que la ampliaban a 2026 (el RDL 16/2025 y el RDL 2/2026) quedaron sin efecto al no ser convalidados, en enero y febrero de 2026<Cite id="boe-rdl-11-2020" />. El RDL 26/2026, que la extendía hasta 2030, también fue derogado<Cite id="boe-derogacion-rdl-26" />. El RDL 29/2026 vuelve a establecer, desde el 8 de octubre de 2026 y hasta el 31 de diciembre de 2030, la suspensión de los desahucios de personas vulnerables sin alternativa habitacional<Cite id="boe-rdl-29-2026" />.
 
 ## Turismo, gentrificación y presión urbana
 
