@@ -1,7 +1,6 @@
 {
   "fallos": {
-    "boe": 3,
-    "paginas": 1
+    "boe": 4
   },
   "boe": {
     "ultimaFecha": "desde_boe = 2026-09-28"
