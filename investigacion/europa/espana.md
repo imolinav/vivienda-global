@@ -337,5 +337,7 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-10-14 · dato `irav`: 2,47 % (agosto de 2026) → 2,54 % (septiembre de 2026). Fuente: `ine-irav`.
+- 2026-10-14 · dato `ipc-alquiler-anual`: 2,5 % (agosto de 2026) → 2,5 % (septiembre de 2026). Fuente: `ine-ipc`.
 - 2026-10-08 · Nuevas versiones consolidadas (07/10/2026) de la Ley 12/2023, LAU, LIRPF, TRLRHL, Ley de SOCIMI y LIVA, causadas por los RDL 28/2026 y 29/2026 · Política: el párrafo de prensa sobre la nueva aprobación se sustituye por los dos decretos publicados en el BOE; frases añadidas en grandes tenedores (SOCIMI, compras por entidades), IRPF y desahucios. El resto del contenido de los decretos queda en dudas.
 - 2026-10-05 · Alta de 61 datos automáticos (`datos` en el frontmatter), configurados en `espana.fuentes.yml`. Sus valores iniciales coinciden con los verificados a mano en la fase 2.
