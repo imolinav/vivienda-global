@@ -1,6 +1,6 @@
 {
   "fallos": {
-    "boe": 14
+    "boe": 15
   },
   "boe": {
     "ultimaFecha": "desde_boe = 2026-09-28"
@@ -91,6 +91,7 @@
       "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20juzgados%20de%20lo%20mercantil%201T%202021.xlsx"
     ],
     "https://www.cis.es/avance-de-resultados": [
+      "https://www.cis.es/es/estudios/barometro-de-octubre-2026",
       "https://www.cis.es/es/estudios/barometro-de-septiembre-2026",
       "https://www.cis.es/es/estudios/barometro-de-julio-2026",
       "https://www.cis.es/es/estudios/barometro-de-junio-2026",
