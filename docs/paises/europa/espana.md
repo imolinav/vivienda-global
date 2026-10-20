@@ -1,7 +1,7 @@
 ---
 title: España
 summary: Precios de compra por encima del máximo nominal de 2007, un tercio de los hogares no propietarios en sobreesfuerzo y una oferta que crece menos que los hogares, con elecciones convocadas tras la derogación de dos decretos de vivienda.
-last_updated: 2026-10-14
+last_updated: 2026-10-20
 sources:
   - id: moncloa-elecciones
     title: "La Moncloa — Pedro Sánchez anuncia la convocatoria de elecciones generales para el 29 de noviembre"
@@ -39,10 +39,10 @@ sources:
     title: "BOE — Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual"
     url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822
     date: "7 de octubre de 2026"
-  - id: cis-barometro-3577
-    title: "CIS — Barómetro de septiembre 2026 (estudio 3577), avance de resultados"
-    url: https://www.cis.es/documents/d/guest/es3577mar_A-pdf
-    date: "septiembre de 2026"
+  - id: cis-barometro-3582
+    title: "CIS — Barómetro de octubre 2026 (estudio 3582), avance de resultados"
+    url: https://www.cis.es/documents/d/guest/es3582mar_A-pdf
+    date: "octubre de 2026"
   - id: mivau-valor-tasado
     title: "Ministerio de Vivienda y Agenda Urbana — Valor tasado de la vivienda (datos abiertos)"
     url: https://datos.gob.es/es/catalogo/e05233601-valor-tasado-de-la-vivienda
@@ -623,7 +623,7 @@ El Banco de España sitúa en el origen del problema un desajuste persistente en
 
 El alquiler ha ganado peso de forma sostenida: el 20,2 % de los hogares vivía de alquiler en 2025, y entre los menores de 30 años lo hacía el 54,7 %<Cite id="bde-ia-2025" />. Las viviendas que entran en alquiler se ofrecen a precios superiores a la media del parque: un 16,5 % más en 2024<Cite id="bde-ia-2025" />. Un 32,5 % de los hogares que no son propietarios dedica más del 30 % de su renta neta al alquiler, y en Málaga, Sevilla, Barcelona o Madrid esa proporción supera el 40 %<Cite id="bde-ia-2025" />.
 
-En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. El 7 de octubre el BOE publicó dos decretos nuevos que retoman buena parte de su contenido<Cite id="boe-rdl-29-2026" /><Cite id="boe-rdl-28-2026" />. La vivienda es el problema más citado en el barómetro del CIS: el 37,5 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3577" />.
+En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. El 7 de octubre el BOE publicó dos decretos nuevos que retoman buena parte de su contenido<Cite id="boe-rdl-29-2026" /><Cite id="boe-rdl-28-2026" />. La vivienda es el problema más citado en el barómetro del CIS: el 55,7 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3582" />.
 
 ### Cifras clave
 
@@ -665,7 +665,7 @@ Las comunidades con tratamiento propio en este documento están gobernadas por p
 
 ### La vivienda en la agenda pública
 
-En el barómetro del CIS de septiembre de 2026 (trabajo de campo del 1 al 4 de septiembre), la vivienda fue el problema más citado. La mencionó el 37,5 % de los encuestados entre los tres principales problemas del país, y el 19,5 % en primer lugar. Le siguieron la crisis económica (21,6 %) y la inmigración (19,7 %)<Cite id="cis-barometro-3577" />.
+En el barómetro del CIS de octubre de 2026 (trabajo de campo del 1 al 6 de octubre), la vivienda fue el problema más citado. La mencionó el 55,7 % de los encuestados entre los tres principales problemas del país, y el 29,9 % en primer lugar. Le siguieron la inmigración (20,9 %) y la crisis económica (20,3 %)<Cite id="cis-barometro-3582" />.
 
 ### Septiembre y octubre de 2026: dos decretos derogados
 
@@ -1044,7 +1044,7 @@ El Código Penal distingue dos delitos. El [allanamiento de morada](#g-allanamie
 
 En 2025 las fuerzas de seguridad registraron 14.875 hechos de allanamiento y usurpación juntos, un 9,4 % menos que en 2024. En 2014 habían sido 10.084<Cite id="interior-ocupacion-prensa" /> <Badge type="warning" text="no contrastado" />. Son cifras difundidas por la prensa a partir del portal estadístico del Ministerio del Interior, cuya tabla original no se ha podido consultar. Equivalen a unos 5,6 casos por cada 10.000 viviendas del parque censado en 2021<Cite id="ine-censo-2021" />, un cálculo propio que combina años distintos. No hay datos que midan cuántos propietarios dejan de alquilar por miedo a la ocupación.
 
-En el barómetro del CIS de septiembre de 2026, el 0,5 % de los encuestados citó «la ocupación de viviendas» entre los principales problemas del país<Cite id="cis-barometro-3577" />.
+En el barómetro del CIS de octubre de 2026, el 0,5 % de los encuestados citó «la ocupación de viviendas» entre los principales problemas del país<Cite id="cis-barometro-3582" />.
 
 ## Glosario
 
