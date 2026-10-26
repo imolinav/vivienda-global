@@ -337,6 +337,12 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-10-26 · dato `compraventas-12m`: 699.038 (agosto de 2025 a julio de 2026) → 700.649 (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.
+- 2026-10-26 · dato `compraventas-12m-variacion`: −1,0 % (agosto de 2025 a julio de 2026) → −0,6 % (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.
+- 2026-10-26 · dato `hipotecas-numero`: 43.372 (julio de 2026) → 33.841 (agosto de 2026). Fuente: `ine-hipotecas`.
+- 2026-10-26 · dato `hipotecas-tipo`: 3,01 % (julio de 2026) → 3,08 % (agosto de 2026). Fuente: `ine-hipotecas`.
+- 2026-10-26 · dato `hipotecas-fijo`: 62,3 % (julio de 2026) → 64,1 % (agosto de 2026). Fuente: `ine-hipotecas`.
+- 2026-10-26 · dato `hipotecas-plazo`: 26 años (julio de 2026) → 26 años (agosto de 2026). Fuente: `ine-hipotecas`.
 - 2026-10-20 · CIS, barómetro de octubre 2026 (estudio 3582) · sustituido el barómetro de septiembre (3577) por el de octubre en el resumen, en «La vivienda en la agenda pública» y en ocupación: la vivienda pasa del 37,5 % al 55,7 % de menciones y del 19,5 % al 29,9 % en primer lugar; la inmigración (20,9 %) adelanta a la crisis económica (20,3 %). Fuente `cis-barometro-3577` sustituida por `cis-barometro-3582`.
 - 2026-10-14 · dato `irav`: 2,47 % (agosto de 2026) → 2,54 % (septiembre de 2026). Fuente: `ine-irav`.
 - 2026-10-14 · dato `ipc-alquiler-anual`: 2,5 % (agosto de 2026) → 2,5 % (septiembre de 2026). Fuente: `ine-ipc`.
