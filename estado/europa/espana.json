@@ -1,9 +1,6 @@
 {
   "fallos": {
-    "boe": 24,
-    "dato:ipv-anual": 1,
-    "dato:ipv-trimestral": 1,
-    "dato:ipv-anual-nueva": 1
+    "boe": 25
   },
   "boe": {
     "ultimaFecha": "desde_boe = 2026-09-28"
