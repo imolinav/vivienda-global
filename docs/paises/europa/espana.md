@@ -1,7 +1,7 @@
 ---
 title: España
 summary: Precios de compra por encima del máximo nominal de 2007, un tercio de los hogares no propietarios en sobreesfuerzo y una oferta que crece menos que los hogares, con elecciones convocadas tras la derogación de dos decretos de vivienda.
-last_updated: 2026-10-26
+last_updated: 2026-10-30
 sources:
   - id: moncloa-elecciones
     title: "La Moncloa — Pedro Sánchez anuncia la convocatoria de elecciones generales para el 29 de noviembre"
@@ -440,7 +440,7 @@ datos:
     decimales: 2
   ipc-anual:
     valor: 4.9
-    periodo: septiembre de 2026
+    periodo: octubre de 2026
     fuente: ine-ipc
     unidad: "%"
     decimales: 1

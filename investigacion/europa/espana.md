@@ -337,6 +337,7 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-10-30 · dato `ipc-anual`: 4,9 % (septiembre de 2026) → 4,9 % (octubre de 2026). Fuente: `ine-ipc`.
 - 2026-10-26 · dato `compraventas-12m`: 699.038 (agosto de 2025 a julio de 2026) → 700.649 (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.
 - 2026-10-26 · dato `compraventas-12m-variacion`: −1,0 % (agosto de 2025 a julio de 2026) → −0,6 % (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.
 - 2026-10-26 · dato `hipotecas-numero`: 43.372 (julio de 2026) → 33.841 (agosto de 2026). Fuente: `ine-hipotecas`.
