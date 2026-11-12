@@ -337,6 +337,13 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-11-12 · dato `hogares`: 19.874.860 (1 de julio de 2026) → 19.953.529 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `hogares-variacion-anual`: +238.585 (1 de julio de 2026) → +244.014 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `hogares-unipersonales`: 5.678.769 (1 de julio de 2026) → 5.719.378 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `hogar-tamano-medio`: 2,49 (1 de julio de 2026) → 2,48 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `poblacion-variacion-anual`: +431.652 (1 de julio de 2026) → +423.174 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `poblacion-nacida-extranjero-variacion`: +526.903 (1 de julio de 2026) → +514.773 (1 de octubre de 2026). Fuente: `ine-ecp`.
+- 2026-11-12 · dato `poblacion-nacida-espana-variacion`: −95.251 (1 de julio de 2026) → −91.599 (1 de octubre de 2026). Fuente: `ine-ecp`.
 - 2026-10-30 · dato `ipc-anual`: 4,9 % (septiembre de 2026) → 4,9 % (octubre de 2026). Fuente: `ine-ipc`.
 - 2026-10-26 · dato `compraventas-12m`: 699.038 (agosto de 2025 a julio de 2026) → 700.649 (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.
 - 2026-10-26 · dato `compraventas-12m-variacion`: −1,0 % (agosto de 2025 a julio de 2026) → −0,6 % (septiembre de 2025 a agosto de 2026). Fuente: `ine-etdp`.

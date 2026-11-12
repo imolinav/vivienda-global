@@ -1,7 +1,7 @@
 ---
 title: España
 summary: Precios de compra por encima del máximo nominal de 2007, un tercio de los hogares no propietarios en sobreesfuerzo y una oferta que crece menos que los hogares, con elecciones convocadas tras la derogación de dos decretos de vivienda.
-last_updated: 2026-10-30
+last_updated: 2026-11-12
 sources:
   - id: moncloa-elecciones
     title: "La Moncloa — Pedro Sánchez anuncia la convocatoria de elecciones generales para el 29 de noviembre"
@@ -505,41 +505,41 @@ datos:
     unidad: €
     decimales: 0
   hogares:
-    valor: 19874860
-    periodo: 1 de julio de 2026
+    valor: 19953529
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
   hogares-variacion-anual:
-    valor: 238585
-    periodo: 1 de julio de 2026
+    valor: 244014
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
     signo: true
   hogares-unipersonales:
-    valor: 5678769
-    periodo: 1 de julio de 2026
+    valor: 5719378
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
   hogar-tamano-medio:
-    valor: 2.49
-    periodo: 1 de julio de 2026
+    valor: 2.48
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 2
   poblacion-variacion-anual:
-    valor: 431652
-    periodo: 1 de julio de 2026
+    valor: 423174
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
     signo: true
   poblacion-nacida-extranjero-variacion:
-    valor: 526903
-    periodo: 1 de julio de 2026
+    valor: 514773
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
     signo: true
   poblacion-nacida-espana-variacion:
-    valor: -95251
-    periodo: 1 de julio de 2026
+    valor: -91599
+    periodo: 1 de octubre de 2026
     fuente: ine-ecp
     decimales: 0
     signo: true
