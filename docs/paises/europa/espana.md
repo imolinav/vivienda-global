@@ -39,6 +39,10 @@ sources:
     title: "BOE — Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual"
     url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822
     date: "7 de octubre de 2026"
+  - id: boe-derogacion-rdl-28
+    title: "BOE — Resolución de 12 de noviembre de 2026, del Congreso, de derogación del Real Decreto-ley 28/2026"
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23754
+    date: "13 de noviembre de 2026"
   - id: cis-barometro-3582
     title: "CIS — Barómetro de octubre 2026 (estudio 3582), avance de resultados"
     url: https://www.cis.es/documents/d/guest/es3582mar_A-pdf
@@ -91,6 +95,10 @@ sources:
     title: "Deia — «El Gobierno español prevé aprobar de nuevo los decretos de vivienda en el Consejo de Ministros del martes» (fuente secundaria)"
     url: https://www.deia.eus/politica/2026/10/05/gobierno-espanol-preve-aprobar-nuevo-11618683.html
     date: "5 de octubre de 2026"
+  - id: boe-lau
+    title: "BOE — Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos (texto consolidado)"
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003
+    date: "octubre de 2026"
   - id: boe-plan-estatal-2026
     title: "BOE — Real Decreto 326/2026, de 22 de abril, Plan Estatal de Vivienda 2026-2030"
     url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8872
@@ -107,10 +115,6 @@ sources:
     title: "INE — Estadística de Hipotecas"
     url: https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736170236&idp=1254735576606
     date: "julio de 2026"
-  - id: boe-lau
-    title: "BOE — Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos (texto consolidado)"
-    url: https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003
-    date: "octubre de 2026"
   - id: ine-irav
     title: "INE — Índice de Referencia de Arrendamientos de Vivienda (IRAV)"
     url: https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177110&idp=1254735976607
@@ -623,7 +627,7 @@ El Banco de España sitúa en el origen del problema un desajuste persistente en
 
 El alquiler ha ganado peso de forma sostenida: el 20,2 % de los hogares vivía de alquiler en 2025, y entre los menores de 30 años lo hacía el 54,7 %<Cite id="bde-ia-2025" />. Las viviendas que entran en alquiler se ofrecen a precios superiores a la media del parque: un 16,5 % más en 2024<Cite id="bde-ia-2025" />. Un 32,5 % de los hogares que no son propietarios dedica más del 30 % de su renta neta al alquiler, y en Málaga, Sevilla, Barcelona o Madrid esa proporción supera el 40 %<Cite id="bde-ia-2025" />.
 
-En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. El 7 de octubre el BOE publicó dos decretos nuevos que retoman buena parte de su contenido<Cite id="boe-rdl-29-2026" /><Cite id="boe-rdl-28-2026" />. La vivienda es el problema más citado en el barómetro del CIS: el 55,7 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3582" />.
+En la política, la competencia sobre vivienda corresponde sobre todo a las comunidades autónomas<Cite id="boe-constitucion" />. Por eso varias medidas de la [Ley 12/2023](#g-ley-12-2023), como los límites al alquiler, solo se aplican donde la comunidad las activa: hoy rigen sobre todo en Cataluña. El parque público de vivienda equivale al 1,5 % de las viviendas principales, frente a alrededor del 7 % de media en las economías europeas y de la OCDE<Cite id="bde-ia-2025" />. El 2 de octubre de 2026 el Congreso derogó dos decretos de vivienda del Gobierno<Cite id="boe-derogacion-rdl-26" /><Cite id="boe-derogacion-rdl-27" />, y tres días después se convocaron elecciones. El 7 de octubre el BOE publicó dos decretos nuevos que retoman buena parte de su contenido<Cite id="boe-rdl-29-2026" /><Cite id="boe-rdl-28-2026" />. El 12 de noviembre la Diputación Permanente derogó uno de ellos, el RDL 28/2026<Cite id="boe-derogacion-rdl-28" />. La vivienda es el problema más citado en el barómetro del CIS: el 55,7 % de los encuestados la menciona entre los tres principales problemas del país<Cite id="cis-barometro-3582" />.
 
 ### Cifras clave
 
@@ -679,7 +683,7 @@ El 2 de octubre de 2026 el Congreso acordó derogar los dos decretos<Cite id="bo
 La prensa había adelantado el 5 de octubre que el Gobierno volvería a aprobar ambos textos para que los convalidara la [Diputación Permanente](#g-diputacion-permanente)<Cite id="prensa-reaprobacion-decretos" />. El 7 de octubre de 2026 el BOE publicó dos decretos nuevos con los mismos títulos:
 
 - **Real Decreto-ley 29/2026,** de 6 de octubre, en vigor desde el día siguiente a su publicación. Su preámbulo justifica aprobarlo tras la derogación de otro «de contenido parcial o sustancialmente coincidente». No es idéntico al RDL 26/2026: por ejemplo, la limitación de compras por entidades se extiende hasta el 31 de diciembre de 2030, y no hasta 2028. Mantiene la suspensión hasta 2030 de los desahucios de personas vulnerables sin alternativa habitacional. Hasta el 31 de diciembre de 2027, la renta no puede subir en la actualización anual si supera el límite del sistema de índices de precios de referencia; en los demás casos, a falta de nuevo pacto, la subida no puede superar el 2 %<Cite id="boe-rdl-29-2026" />.
-- **Real Decreto-ley 28/2026,** de 6 de octubre, que entra en vigor el 15 de noviembre de 2026<Cite id="boe-rdl-28-2026" />.
+- **Real Decreto-ley 28/2026,** de 6 de octubre, que debía entrar en vigor el 15 de noviembre de 2026<Cite id="boe-rdl-28-2026" />. El 12 de noviembre de 2026, antes de esa fecha, la [Diputación Permanente](#g-diputacion-permanente) del Congreso acordó derogarlo<Cite id="boe-derogacion-rdl-28" />. Con la derogación queda sin efecto la modificación del artículo 10 de la LAU, sobre la prórroga del contrato, que había introducido<Cite id="boe-lau" />.
 
 Las demás secciones de este documento todavía no recogen todos los cambios de estos dos decretos.
 
