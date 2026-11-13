@@ -337,6 +337,8 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-11-13 · dato `irav`: 2,54 % (septiembre de 2026) → 2,57 % (octubre de 2026). Fuente: `ine-irav`.
+- 2026-11-13 · dato `ipc-alquiler-anual`: 2,5 % (septiembre de 2026) → 2,6 % (octubre de 2026). Fuente: `ine-ipc`.
 - 2026-11-12 · dato `hogares`: 19.874.860 (1 de julio de 2026) → 19.953.529 (1 de octubre de 2026). Fuente: `ine-ecp`.
 - 2026-11-12 · dato `hogares-variacion-anual`: +238.585 (1 de julio de 2026) → +244.014 (1 de octubre de 2026). Fuente: `ine-ecp`.
 - 2026-11-12 · dato `hogares-unipersonales`: 5.678.769 (1 de julio de 2026) → 5.719.378 (1 de octubre de 2026). Fuente: `ine-ecp`.
