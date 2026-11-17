@@ -338,6 +338,8 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-11-17 · dato `compraventas-12m`: 700.649 (septiembre de 2025 a agosto de 2026) → 692.179 (octubre de 2025 a septiembre de 2026). Fuente: `ine-etdp`.
+- 2026-11-17 · dato `compraventas-12m-variacion`: −0,6 % (septiembre de 2025 a agosto de 2026) → −2,0 % (octubre de 2025 a septiembre de 2026). Fuente: `ine-etdp`.
 - 2026-11-13 · Nueva versión consolidada de la LAU (13/11/2026), por la derogación del RDL 28/2026 (BOE-A-2026-23754) · Política: frase sobre la derogación en el resumen político y en la entrada del RDL 28/2026; nueva fuente `boe-derogacion-rdl-28`; fila de Normas actualizada.
 - 2026-11-13 · dato `irav`: 2,54 % (septiembre de 2026) → 2,57 % (octubre de 2026). Fuente: `ine-irav`.
 - 2026-11-13 · dato `ipc-alquiler-anual`: 2,5 % (septiembre de 2026) → 2,6 % (octubre de 2026). Fuente: `ine-ipc`.
