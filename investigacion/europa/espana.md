@@ -338,6 +338,7 @@ Candidatas a documentar:
 
 Cambios hechos por la actualización automática diaria, del más reciente al más antiguo.
 
+- 2026-11-27 · dato `ipc-anual`: 4,9 % (octubre de 2026) → 4,1 % (noviembre de 2026). Fuente: `ine-ipc`.
 - 2026-11-25 · dato `hipotecas-numero`: 33.841 (agosto de 2026) → 46.469 (septiembre de 2026). Fuente: `ine-hipotecas`.
 - 2026-11-25 · dato `hipotecas-tipo`: 3,08 % (agosto de 2026) → 3,05 % (septiembre de 2026). Fuente: `ine-hipotecas`.
 - 2026-11-25 · dato `hipotecas-fijo`: 64,1 % (agosto de 2026) → 62,5 % (septiembre de 2026). Fuente: `ine-hipotecas`.
